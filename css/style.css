@@ -26,6 +26,12 @@
     padding: 1.7rem;
     color: var(--title-color);
 }
+h3{
+    color:blue;
+}
+*{
+    scroll-behavior: smooth;
+}
 
 .header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
@@ -54,8 +60,11 @@
     padding-top: 35%;
     font-weight: 500;
 }
-h1.h2.h3.h4{
+body a {
     font-family: 'Sofia';font-size: 22px;
+}
+p{
+  font-family: 'Sofia';font-size: 22px;  
 }
 
 .site-main .site-banner .site-title h3::after{
